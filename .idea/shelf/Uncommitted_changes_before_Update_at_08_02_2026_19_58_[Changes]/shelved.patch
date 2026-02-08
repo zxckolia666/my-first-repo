@@ -1,0 +1,18 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	(revision a53d994ddffbc4f79134f3fa59d306ad4c24fe13)
++++ b/main.py	(date 1770569604811)
+@@ -1,0 +1,8 @@
++numbers = [5, 2, 8, 1, 9]
++sorted_numbers = sorted(numbers)
++print(sorted_numbers)  # [1, 2, 5, 8, 9]
++
++# Для списка строк
++words = ["банан", "яблоко", "апельсин"]
++sorted_words = sorted(words)
++print(sorted_words)  # ['апельсин', 'банан', 'яблоко']
+\ No newline at end of file
